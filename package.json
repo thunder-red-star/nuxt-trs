@@ -10,6 +10,7 @@
     "nuxt": "3.0.0-rc.3"
   },
   "dependencies": {
-    "@nuxt/kit-edge": "^3.0.0-rc.3-27571095.9379606"
+    "@nuxt/kit-edge": "^3.0.0-rc.3-27571095.9379606",
+    "google-fonts-helper": "^3.0.0"
   }
 }
