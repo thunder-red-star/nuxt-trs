@@ -3,8 +3,8 @@
 <!-- When the user clicks on the button, it will open the url in a new tab -->
 
 <template>
-  <div class="button-link">
-    <a :href="url" target="_blank">{{ name }}</a>
+  <div class="button-link" @click="openUrl">
+    <p class="button-link-name">{{ name }}</p>
   </div>
 </template>
 
@@ -18,6 +18,16 @@ export default {
     url: {
       type: String,
       required: true
+    },
+    targetColor: {
+      type: String,
+      required: false
+    }
+  },
+  // Attach a click event to the button
+  methods: {
+    openUrl() {
+      window.open(this.url, '_blank')
     }
   }
 }
@@ -36,6 +46,6 @@ export default {
 }
 
 .button-link:hover {
-  background-color: #ccc;
+  background-color: #52c4fa;
 }
 </style>

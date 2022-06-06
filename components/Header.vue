@@ -1,6 +1,6 @@
 <template>
-  <h1 class="header-title">
-    Hello world!
+  <h1>
+    <span class="header-title header-title-glow">Hello world!</span>
   </h1>
   <h2 class="header-subtitle">
     I hope I can come up with something more creative than this.
@@ -15,12 +15,29 @@
   .header-title {
     font-size: 2em;
     font-weight: bold;
-    color: #333;
     font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 0;
+    margin: 0;
   }
+
   .header-subtitle {
     font-size: 1.5em;
-    color: #666;
+    color: #eee;
     font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .header-title-glow {
+    background: linear-gradient(to right, #ff0000, #ffff00, #ff0000);
+    -webkit-background-clip: text !important;
+    transition: all 0.25s ease-in-out;
+    color: transparent;
+    width: calc(100% - 20px);
+    animation: glowing 15s linear infinite;
+    background-size: 400%
+  }
+
+  @keyframes glowing {
+    0% { background-position: 0 0; }
+    100% { background-position: 400% 0; }
   }
 </style>

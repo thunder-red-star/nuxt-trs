@@ -19,13 +19,9 @@
       <div class="project-tab-header-title">
         <h3>{{ project.title }}</h3>
       </div>
-      <div class="project-tab-header-links">
-        <!-- For each link, create a button link component -->
-        <ButtonLink v-for="(link, index) in project.links" :key="index" :name="link.name" :url="link.url"></ButtonLink>
-      </div>
     </div>
     <div class="project-tab-content">
-      <div class="project-tab-content-description">
+      <div class="project-tab-content-description inter white">
         <p>{{ project.description }}</p>
       </div>
       <div class="project-tab-content-tags">
@@ -33,6 +29,10 @@
           <p>{{ tag }}</p>
         </div>
       </div>
+    </div>
+    <div class="project-tab-header-links inter white">
+      <!-- For each link, create a button link component -->
+      <ButtonLink v-for="(link, index) in project.links" :key="index" :name="link.name" :url="link.url"></ButtonLink>
     </div>
   </div>
 </template>
@@ -56,10 +56,36 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
   cursor: pointer;
+  width: 100%;
   transition: all 0.5s ease-in-out;
+  padding: 25px;
+}
+
+.project-tab-header-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #eee;
+}
+
+.project-tab-header-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.project-tab-content-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.white {
+  color: #eee;
 }
 </style>
