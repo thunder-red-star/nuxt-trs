@@ -7,10 +7,9 @@
     "preview": "nuxt preview"
   },
   "devDependencies": {
-    "nuxt": "3.0.0-rc.3"
-  },
-  "dependencies": {
     "@nuxt/kit-edge": "^3.0.0-rc.3-27571095.9379606",
-    "google-fonts-helper": "^3.0.0"
+    "@nuxt/types": "^2.15.8",
+    "google-fonts-helper": "^2.0.1",
+    "nuxt": "3.0.0-rc.3"
   }
 }

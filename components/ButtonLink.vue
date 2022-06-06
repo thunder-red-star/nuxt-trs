@@ -48,4 +48,8 @@ export default {
 .button-link:hover {
   background-color: #52c4fa;
 }
+
+.button-link-name {
+  padding: 0;
+}
 </style>

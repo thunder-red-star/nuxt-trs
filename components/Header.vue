@@ -1,9 +1,9 @@
 <template>
   <h1>
-    <span class="header-title header-title-glow">Hello world!</span>
+    <span class="header-title header-title-glow">ThunderRedStar</span>
   </h1>
   <h2 class="header-subtitle">
-    I hope I can come up with something more creative than this.
+    Your average cool boy 😎
   </h2>
 </template>
 

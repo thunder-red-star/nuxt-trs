@@ -59,6 +59,11 @@ html {
   margin: 0;
 }
 
+.description {
+  font-size: 1.5em;
+  color: #eee;
+}
+
 .red-to-yellow {
   background: linear-gradient(to right, #ff0000, #ffff00, #ff0000);
   -webkit-background-clip: text !important;
