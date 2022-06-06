@@ -43,13 +43,18 @@ export default {
   border-radius: 5px;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
+  font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.button-link:after {
+  content: "";
 }
 
 .button-link:hover {
   background-color: #52c4fa;
 }
 
-.button-link-name {
-  padding: 0;
+.button-link:hover:after {
+  content: "->";
 }
 </style>
