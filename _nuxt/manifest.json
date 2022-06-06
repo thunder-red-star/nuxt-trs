@@ -1,0 +1,25 @@
+{
+  "node_modules/nuxt/dist/app/entry.mjs": {
+    "file": "entry-0e5e51b2.mjs",
+    "src": "node_modules/nuxt/dist/app/entry.mjs",
+    "isEntry": true,
+    "css": [
+      "entry.26556c41.css"
+    ],
+    "assets": [
+      "Inter-300-cyrillic-ext1.e9a646c3.woff2",
+      "Inter-300-cyrillic2.da8675c1.woff2",
+      "Inter-300-greek-ext3.82d94f2d.woff2",
+      "Inter-300-greek4.301b80f0.woff2",
+      "Inter-300-vietnamese5.3b529a77.woff2",
+      "Inter-300-latin-ext6.ef856138.woff2",
+      "Inter-300-latin7.b97c99a6.woff2",
+      "Roboto-400-cyrillic-ext29.b7ef2cd1.woff2",
+      "Roboto-400-cyrillic30.495d38d4.woff2",
+      "Roboto-400-greek32.daf51ab5.woff2",
+      "Roboto-400-vietnamese33.77b24796.woff2",
+      "Roboto-400-latin-ext34.3c23eb02.woff2",
+      "Roboto-400-latin35.f6734f81.woff2"
+    ]
+  }
+}
