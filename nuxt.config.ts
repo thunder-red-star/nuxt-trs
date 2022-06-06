@@ -24,4 +24,7 @@ export default defineNuxtConfig({
         },
     },
     target: 'static',
+    router: {
+        base: '/nuxt-trs/'
+    }
 })
