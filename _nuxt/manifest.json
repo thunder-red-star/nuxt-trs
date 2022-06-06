@@ -1,10 +1,10 @@
 {
   "node_modules/nuxt/dist/app/entry.mjs": {
-    "file": "entry-0e5e51b2.mjs",
+    "file": "entry-390e1231.mjs",
     "src": "node_modules/nuxt/dist/app/entry.mjs",
     "isEntry": true,
     "css": [
-      "entry.26556c41.css"
+      "entry.0f207708.css"
     ],
     "assets": [
       "Inter-300-cyrillic-ext1.e9a646c3.woff2",
