@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Sugar",
+    "description": "Sugar is a chemical element that is found in the diet of some animals. It is used as a sweetener in foods such as jam, jelly, pies, ice cream, and candy.",
+    "links": [
+      {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Sugar"
+      }
+    ]
+  },
+  {
+    "title": "Sodium",
+    "description": "Sodium is a chemical element with symbol Na (from Latin: natrium) and atomic number 11. It is a soft, silver-white, highly reactive metal. In the Periodic table it is in the alkali metals column (2nd-3rd row). It is highly reactive, oxidizing, and discolored in air.",
+    "links": [
+      {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Sodium"
+      }
+    ]
+  },
+  {
+    "title": "Silicon",
+    "description": "Silicon is a chemical element with symbol Si and atomic number 14. It is a tetravalent metalloid, more reactive than germanium, the metalloid directly below it in the table. It does not occur naturally as a free element in nature, but is prepared in the mineral gadolinite (SiO2).",
+    "links": [
+      {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Silicon"
+      }
+    ]
+  },
+  {
+    "title": "Silver",
+    "description": "Silver is a chemical element with symbol Ag (Greek: αργιος) and atomic number 47. A pure metal, it is the second lightest metal and the fourth most abundant metal in the Earth's crust. Its abundance in the Earth's crust is due to its high concentration in the Earth's crust, as well as its high concentration in the stars.",
+    "links": [
+      {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Silver"
+      }
+    ]
+  },
+  {
+    "title": "Sodium Chloride",
+    "description": "Sodium chloride (NaCl) is a chemical compound with the formula NaCl. It is a colorless, odorless, tasteless, and highly inflammable, alkaline, highly reactive, and highly corrosive metal. It is the main constituent of sodium bicarbonate (NaHCO3), sodium chloride (NaCl), sodium hydroxide (NaOH), and sodium nitrate (NaNO3).",
+    "links": [
+      {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Sodium_chloride"
+      }
+    ]
+  },
+  {
+    "title": "Sodium Hydroxide",
+    "description": "Sodium hydroxide (NaOH) is a chemical compound with the formula NaOH. It is a colorless, odorless, tasteless, and highly inflammable, alkaline, highly reactive, and highly corrosive metal. It is the main constituent of sodium bicarbonate (NaHCO3), sodium chloride (NaCl), sodium hydroxide (NaOH), and sodium nitrate (NaNO3).",
+    "links": [
+      {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Sodium_hydroxide"
+      }
+    ]
+  }
+]

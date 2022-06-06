@@ -1,0 +1,16 @@
+node_modules
+*.log*
+.nuxt
+.nitro
+.cache
+.output
+.env
+dist
+
+yarn.lock
+package-lock.json
+
+.DS_Store
+.env.local
+.idea
+.vscode
