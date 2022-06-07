@@ -42,12 +42,13 @@ export default {
   border: 1px solid #ccc;
   border-radius: 5px;
   cursor: pointer;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.5s ease-in-out;
   font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .button-link:after {
   content: "";
+  transition: all 0.5s ease-in-out;
 }
 
 .button-link:hover {
@@ -55,6 +56,6 @@ export default {
 }
 
 .button-link:hover:after {
-  content: "->";
+  content: "-->";
 }
 </style>
